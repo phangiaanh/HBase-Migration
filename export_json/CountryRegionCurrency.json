@@ -1,0 +1,548 @@
+{
+"CountryRegionCurrency": [
+	{
+		"CountryRegionCode" : "AE",
+		"CurrencyCode" : "AED",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "AR",
+		"CurrencyCode" : "ARS",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "AT",
+		"CurrencyCode" : "ATS",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "AT",
+		"CurrencyCode" : "EUR",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CountryRegionCode" : "AU",
+		"CurrencyCode" : "AUD",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "BB",
+		"CurrencyCode" : "BBD",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "BD",
+		"CurrencyCode" : "BDT",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "BE",
+		"CurrencyCode" : "BEF",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "BE",
+		"CurrencyCode" : "EUR",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CountryRegionCode" : "BG",
+		"CurrencyCode" : "BGN",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "BH",
+		"CurrencyCode" : "BHD",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "BN",
+		"CurrencyCode" : "BND",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "BO",
+		"CurrencyCode" : "BOB",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "BR",
+		"CurrencyCode" : "BRL",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "BS",
+		"CurrencyCode" : "BSD",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "BT",
+		"CurrencyCode" : "BTN",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "CA",
+		"CurrencyCode" : "CAD",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "CH",
+		"CurrencyCode" : "CHF",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "CL",
+		"CurrencyCode" : "CLP",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "CN",
+		"CurrencyCode" : "CNY",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "CO",
+		"CurrencyCode" : "COP",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "CR",
+		"CurrencyCode" : "CRC",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "CY",
+		"CurrencyCode" : "CYP",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "CZ",
+		"CurrencyCode" : "CZK",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "DE",
+		"CurrencyCode" : "DEM",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "DE",
+		"CurrencyCode" : "EUR",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "DK",
+		"CurrencyCode" : "DKK",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "DO",
+		"CurrencyCode" : "DOP",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "DZ",
+		"CurrencyCode" : "DZD",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "EC",
+		"CurrencyCode" : "USD",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "EE",
+		"CurrencyCode" : "EEK",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "EG",
+		"CurrencyCode" : "EGP",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "ES",
+		"CurrencyCode" : "ESP",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "ES",
+		"CurrencyCode" : "EUR",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CountryRegionCode" : "FI",
+		"CurrencyCode" : "EUR",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CountryRegionCode" : "FI",
+		"CurrencyCode" : "FIM",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "FJ",
+		"CurrencyCode" : "FJD",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "FR",
+		"CurrencyCode" : "EUR",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "FR",
+		"CurrencyCode" : "FRF",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "GB",
+		"CurrencyCode" : "GBP",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "GH",
+		"CurrencyCode" : "GHC",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "GR",
+		"CurrencyCode" : "EUR",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CountryRegionCode" : "GR",
+		"CurrencyCode" : "GRD",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "GT",
+		"CurrencyCode" : "GTQ",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "HK",
+		"CurrencyCode" : "HKD",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "HR",
+		"CurrencyCode" : "HRK",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "HU",
+		"CurrencyCode" : "HUF",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "ID",
+		"CurrencyCode" : "IDR",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "IE",
+		"CurrencyCode" : "EUR",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CountryRegionCode" : "IE",
+		"CurrencyCode" : "IEP",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "IL",
+		"CurrencyCode" : "ILS",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "IN",
+		"CurrencyCode" : "INR",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "IS",
+		"CurrencyCode" : "ISK",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "IT",
+		"CurrencyCode" : "EUR",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CountryRegionCode" : "IT",
+		"CurrencyCode" : "ITL",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "JM",
+		"CurrencyCode" : "JMD",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "JO",
+		"CurrencyCode" : "JOD",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "JP",
+		"CurrencyCode" : "JPY",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "KE",
+		"CurrencyCode" : "KES",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "KR",
+		"CurrencyCode" : "KRW",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "KW",
+		"CurrencyCode" : "KWD",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "LB",
+		"CurrencyCode" : "LBP",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "LK",
+		"CurrencyCode" : "LKR",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "LT",
+		"CurrencyCode" : "LTL",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "LU",
+		"CurrencyCode" : "EUR",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CountryRegionCode" : "LV",
+		"CurrencyCode" : "LVL",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "MA",
+		"CurrencyCode" : "MAD",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "MT",
+		"CurrencyCode" : "MTL",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "MU",
+		"CurrencyCode" : "MUR",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "MV",
+		"CurrencyCode" : "MVR",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "MX",
+		"CurrencyCode" : "MXN",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "MY",
+		"CurrencyCode" : "MYR",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "NA",
+		"CurrencyCode" : "NAD",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "NG",
+		"CurrencyCode" : "NGN",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "NL",
+		"CurrencyCode" : "EUR",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CountryRegionCode" : "NL",
+		"CurrencyCode" : "NLG",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "NO",
+		"CurrencyCode" : "NOK",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "NP",
+		"CurrencyCode" : "NPR",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "NZ",
+		"CurrencyCode" : "NZD",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "OM",
+		"CurrencyCode" : "OMR",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "PA",
+		"CurrencyCode" : "PAB",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "PE",
+		"CurrencyCode" : "PEN",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "PH",
+		"CurrencyCode" : "PHP",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "PK",
+		"CurrencyCode" : "PKR",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "PL",
+		"CurrencyCode" : "PLN",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "PL",
+		"CurrencyCode" : "PLZ",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "PT",
+		"CurrencyCode" : "EUR",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CountryRegionCode" : "PT",
+		"CurrencyCode" : "PTE",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "PY",
+		"CurrencyCode" : "PYG",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "RO",
+		"CurrencyCode" : "ROL",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "RU",
+		"CurrencyCode" : "RUB",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "RU",
+		"CurrencyCode" : "RUR",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "SA",
+		"CurrencyCode" : "SAR",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "SE",
+		"CurrencyCode" : "SEK",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "SG",
+		"CurrencyCode" : "SGD",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "SI",
+		"CurrencyCode" : "SIT",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "SK",
+		"CurrencyCode" : "SKK",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "SV",
+		"CurrencyCode" : "SVC",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "TH",
+		"CurrencyCode" : "THB",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "TN",
+		"CurrencyCode" : "TND",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "TR",
+		"CurrencyCode" : "TRL",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "TT",
+		"CurrencyCode" : "TTD",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "TW",
+		"CurrencyCode" : "TWD",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "US",
+		"CurrencyCode" : "USD",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "UY",
+		"CurrencyCode" : "UYU",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "VE",
+		"CurrencyCode" : "VEB",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "VN",
+		"CurrencyCode" : "VND",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "ZA",
+		"CurrencyCode" : "ZAR",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	},
+	{
+		"CountryRegionCode" : "ZW",
+		"CurrencyCode" : "ZWD",
+		"ModifiedDate" : "2008-03-11T03:17:21.510Z"
+	}
+]}

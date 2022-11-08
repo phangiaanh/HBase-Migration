@@ -1,0 +1,63 @@
+{
+"SalesReason": [
+	{
+		"SalesReasonID" : 1,
+		"Name" : "Price",
+		"ReasonType" : "Other",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"SalesReasonID" : 2,
+		"Name" : "On Promotion",
+		"ReasonType" : "Promotion",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"SalesReasonID" : 3,
+		"Name" : "Magazine Advertisement",
+		"ReasonType" : "Marketing",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"SalesReasonID" : 4,
+		"Name" : "Television  Advertisement",
+		"ReasonType" : "Marketing",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"SalesReasonID" : 5,
+		"Name" : "Manufacturer",
+		"ReasonType" : "Other",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"SalesReasonID" : 6,
+		"Name" : "Review",
+		"ReasonType" : "Other",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"SalesReasonID" : 7,
+		"Name" : "Demo Event",
+		"ReasonType" : "Marketing",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"SalesReasonID" : 8,
+		"Name" : "Sponsorship",
+		"ReasonType" : "Marketing",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"SalesReasonID" : 9,
+		"Name" : "Quality",
+		"ReasonType" : "Other",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"SalesReasonID" : 10,
+		"Name" : "Other",
+		"ReasonType" : "Other",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	}
+]}

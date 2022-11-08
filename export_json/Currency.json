@@ -1,0 +1,528 @@
+{
+"Currency": [
+	{
+		"CurrencyCode" : "AED",
+		"Name" : "Emirati Dirham",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "AFA",
+		"Name" : "Afghani",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "ALL",
+		"Name" : "Lek",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "AMD",
+		"Name" : "Armenian Dram",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "ANG",
+		"Name" : "Netherlands Antillian Guilder",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "AOA",
+		"Name" : "Kwanza",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "ARS",
+		"Name" : "Argentine Peso",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "ATS",
+		"Name" : "Shilling",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "AUD",
+		"Name" : "Australian Dollar",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "AWG",
+		"Name" : "Aruban Guilder",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "AZM",
+		"Name" : "Azerbaijanian Manat",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "BBD",
+		"Name" : "Barbados Dollar",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "BDT",
+		"Name" : "Taka",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "BEF",
+		"Name" : "Belgian Franc",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "BGN",
+		"Name" : "Bulgarian Lev",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "BHD",
+		"Name" : "Bahraini Dinar",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "BND",
+		"Name" : "Brunei Dollar",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "BOB",
+		"Name" : "Boliviano",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "BRL",
+		"Name" : "Brazilian Real",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "BSD",
+		"Name" : "Bahamian Dollar",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "BTN",
+		"Name" : "Ngultrum",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "CAD",
+		"Name" : "Canadian Dollar",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "CHF",
+		"Name" : "Swiss Franc",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "CLP",
+		"Name" : "Chilean Peso",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "CNY",
+		"Name" : "Yuan Renminbi",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "COP",
+		"Name" : "Colombian Peso",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "CRC",
+		"Name" : "Costa Rican Colon",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "CYP",
+		"Name" : "Cyprus Pound",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "CZK",
+		"Name" : "Czech Koruna",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "DEM",
+		"Name" : "Deutsche Mark",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "DKK",
+		"Name" : "Danish Krone",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "DOP",
+		"Name" : "Dominican Peso",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "DZD",
+		"Name" : "Algerian Dinar",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "EEK",
+		"Name" : "Kroon",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "EGP",
+		"Name" : "Egyptian Pound",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "ESP",
+		"Name" : "Spanish Peseta",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "EUR",
+		"Name" : "EURO",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "FIM",
+		"Name" : "Markka",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "FJD",
+		"Name" : "Fiji Dollar",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "FRF",
+		"Name" : "French Franc",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "GBP",
+		"Name" : "United Kingdom Pound",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "GHC",
+		"Name" : "Cedi",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "GRD",
+		"Name" : "Drachma",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "GTQ",
+		"Name" : "Quetzal",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "HKD",
+		"Name" : "Hong Kong Dollar",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "HRK",
+		"Name" : "Croatian Kuna",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "HUF",
+		"Name" : "Forint",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "IDR",
+		"Name" : "Rupiah",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "IEP",
+		"Name" : "Irish Pound",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "ILS",
+		"Name" : "New Israeli Shekel",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "INR",
+		"Name" : "Indian Rupee",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "ISK",
+		"Name" : "Iceland Krona",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "ITL",
+		"Name" : "Italian Lira",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "JMD",
+		"Name" : "Jamaican Dollar",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "JOD",
+		"Name" : "Jordanian Dinar",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "JPY",
+		"Name" : "Yen",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "KES",
+		"Name" : "Kenyan Shilling",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "KRW",
+		"Name" : "Won",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "KWD",
+		"Name" : "Kuwaiti Dinar",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "LBP",
+		"Name" : "Lebanese Pound",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "LKR",
+		"Name" : "Sri Lankan Rupee",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "LTL",
+		"Name" : "Lithuanian Litas",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "LVL",
+		"Name" : "Latvian Lats",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "MAD",
+		"Name" : "Moroccan Dirham",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "MTL",
+		"Name" : "Maltese Lira",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "MUR",
+		"Name" : "Mauritius Rupee",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "MVR",
+		"Name" : "Rufiyaa",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "MXN",
+		"Name" : "Mexican Peso",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "MYR",
+		"Name" : "Malaysian Ringgit",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "NAD",
+		"Name" : "Namibia Dollar",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "NGN",
+		"Name" : "Naira",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "NLG",
+		"Name" : "Netherlands Guilder",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "NOK",
+		"Name" : "Norwegian Krone",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "NPR",
+		"Name" : "Nepalese Rupee",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "NZD",
+		"Name" : "New Zealand Dollar",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "OMR",
+		"Name" : "Omani Rial",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "PAB",
+		"Name" : "Balboa",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "PEN",
+		"Name" : "Nuevo Sol",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "PHP",
+		"Name" : "Philippine Peso",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "PKR",
+		"Name" : "Pakistan Rupee",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "PLN",
+		"Name" : "Zloty",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "PLZ",
+		"Name" : "Polish Zloty(old)",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "PTE",
+		"Name" : "Portuguese Escudo",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "PYG",
+		"Name" : "Guarani",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "ROL",
+		"Name" : "Leu",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "RUB",
+		"Name" : "Russian Ruble",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "RUR",
+		"Name" : "Russian Ruble(old)",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "SAR",
+		"Name" : "Saudi Riyal",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "SEK",
+		"Name" : "Swedish Krona",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "SGD",
+		"Name" : "Singapore Dollar",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "SIT",
+		"Name" : "Tolar",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "SKK",
+		"Name" : "Slovak Koruna",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "SVC",
+		"Name" : "El Salvador Colon",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "THB",
+		"Name" : "Baht",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "TND",
+		"Name" : "Tunisian Dinar",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "TRL",
+		"Name" : "Turkish Lira",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "TTD",
+		"Name" : "Trinidad and Tobago Dollar",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "TWD",
+		"Name" : "New Taiwan Dollar",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "USD",
+		"Name" : "US Dollar",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "UYU",
+		"Name" : "Uruguayan Peso",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "VEB",
+		"Name" : "Bolivar",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "VND",
+		"Name" : "Dong",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "XOF",
+		"Name" : "CFA Franc BCEAO",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "ZAR",
+		"Name" : "Rand",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	},
+	{
+		"CurrencyCode" : "ZWD",
+		"Name" : "Zimbabwe Dollar",
+		"ModifiedDate" : "2002-05-31T17:00:00.000Z"
+	}
+]}

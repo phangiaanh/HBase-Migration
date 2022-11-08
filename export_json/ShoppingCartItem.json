@@ -1,0 +1,27 @@
+{
+"ShoppingCartItem": [
+	{
+		"ShoppingCartItemID" : 2,
+		"ShoppingCartID" : "14951",
+		"Quantity" : 3,
+		"ProductID" : 862,
+		"DateCreated" : "2007-12-11T10:54:07.603Z",
+		"ModifiedDate" : "2007-12-11T10:54:07.603Z"
+	},
+	{
+		"ShoppingCartItemID" : 4,
+		"ShoppingCartID" : "20621",
+		"Quantity" : 4,
+		"ProductID" : 881,
+		"DateCreated" : "2007-12-11T10:54:07.603Z",
+		"ModifiedDate" : "2007-12-11T10:54:07.603Z"
+	},
+	{
+		"ShoppingCartItemID" : 5,
+		"ShoppingCartID" : "20621",
+		"Quantity" : 7,
+		"ProductID" : 874,
+		"DateCreated" : "2007-12-11T10:54:07.603Z",
+		"ModifiedDate" : "2007-12-11T10:54:07.603Z"
+	}
+]}
