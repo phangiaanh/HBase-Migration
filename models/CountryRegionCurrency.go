@@ -11,24 +11,18 @@ import (
 	"github.com/tsuna/gohbase/hrpc"
 )
 
-type CountryRegionCurrencyDB struct {
-	CountryRegionCurrencyDB []SalesPerson `json:"SalesPerson"`
+type SalesPersonDB struct {
+	SalesPersonDB []CountryRegionCurrency `json:"CountryRegionCurrency"`
 }
 
-type SalesPerson struct {
-	BusinessEntityID int64  `json:"BusinessEntityID"`
-	TerritoryID      int64  `json:"TerritoryID"`
-	SalesQuota       int64  `json:"SalesQuota"`
-	Bonus            string `json:"Bonus"`
-	CommissionPct    string `json:"CommissionPct"`
-	SalesYTD         string `json:"SalesYTD"`
-	SalesLastYear    string `json:"SalesLastYear"`
-	rowguid          string `json:"rowguid"`
+type CountryRegionCurrency struct {
+	CountryRegionCode string `json:"CountryRegionCode"`
+	CurrencyCode      string `json:"CurrencyCode"`
 }
 
-func readFileSalesPerson() {
-	data, _ := ioutil.ReadFile("./export_json/SalesPerson.json")
-	var res SalesPersonDB
+func readFileCountryRegionCurrency() {
+	data, _ := ioutil.ReadFile("./export_json/CountryRegionCurrency.json")
+	var res CountryRegionCurrencyDB
 	err := json.Unmarshal(data, &res)
 	if err != nil {
 		fmt.Println(err)
@@ -64,7 +58,7 @@ func readFileSalesPerson() {
 	fmt.Println(i)
 }
 
-func ImportSalesPerson() {
-	readFileSalesPerson()
-	fmt.Println("Done SalesPerson")
+func ImportCountryRegionCurrency() {
+	readFileCountryRegionCurrency()
+	fmt.Println("Done ImportCountryRegionCurrency")
 }

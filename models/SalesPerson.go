@@ -12,17 +12,23 @@ import (
 )
 
 type SalesPersonDB struct {
-	SalesPersonDB []CountryRegionCurrency `json:"CountryRegionCurrency"`
+	SalesPersonDB []SalesPerson `json:"SalesPerson"`
 }
 
-type CountryRegionCurrency struct {
-	CountryRegionCode string `json:"CountryRegionCode"`
-	CurrencyCode      string `json:"CurrencyCode"`
+type SalesPerson struct {
+	BusinessEntityID int64  `json:"BusinessEntityID"`
+	TerritoryID      int64  `json:"TerritoryID"`
+	SalesQuota       int64  `json:"SalesQuota"`
+	Bonus            string `json:"Bonus"`
+	CommissionPct    string `json:"CommissionPct"`
+	SalesYTD         string `json:"SalesYTD"`
+	SalesLastYear    string `json:"SalesLastYear"`
+	rowguid          string `json:"rowguid"`
 }
 
-func readFileCountryRegionCurrency() {
-	data, _ := ioutil.ReadFile("./export_json/CountryRegionCurrency.json")
-	var res CountryRegionCurrencyDB
+func readFileSalesPerson() {
+	data, _ := ioutil.ReadFile("./export_json/SalesPerson.json")
+	var res SalesPersonDB
 	err := json.Unmarshal(data, &res)
 	if err != nil {
 		fmt.Println(err)
@@ -38,7 +44,7 @@ func readFileCountryRegionCurrency() {
 	}
 
 	var i int64 = 0
-	for _, item := range res.CountryRegionCurrencyDB {
+	for _, item := range res.SalesPersonDB {
 		i = i + 1
 		values := map[string]map[string][]byte{
 			"Code": map[string][]byte{
@@ -58,7 +64,7 @@ func readFileCountryRegionCurrency() {
 	fmt.Println(i)
 }
 
-func ImportCountryRegionCurrency() {
-	readFileCountryRegionCurrency()
-	fmt.Println("Done ImportCountryRegionCurrency")
+func ImportSalesPerson() {
+	readFileSalesPerson()
+	fmt.Println("Done SalesPerson")
 }
