@@ -11,8 +11,8 @@ import (
 	"github.com/tsuna/gohbase/hrpc"
 )
 
-type SalesPersonDB struct {
-	SalesPersonDB []CountryRegionCurrency `json:"CountryRegionCurrency"`
+type CountryRegionCurrencyDB struct {
+	CountryRegionCurrencyDB []CountryRegionCurrency `json:"CountryRegionCurrency"`
 }
 
 type CountryRegionCurrency struct {

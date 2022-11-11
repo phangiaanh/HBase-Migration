@@ -18,7 +18,7 @@ type SalesPersonDB struct {
 type SalesPerson struct {
 	BusinessEntityID int64  `json:"BusinessEntityID"`
 	TerritoryID      int64  `json:"TerritoryID"`
-	SalesQuota       int64  `json:"SalesQuota"`
+	SalesQuota       string `json:"SalesQuota"`
 	Bonus            string `json:"Bonus"`
 	CommissionPct    string `json:"CommissionPct"`
 	SalesYTD         string `json:"SalesYTD"`
@@ -35,9 +35,10 @@ func readFileSalesPerson() {
 	}
 
 	columns := map[string]map[string]string{
-		"Code": map[string]string{},
+		"Sales":    map[string]string{},
+		"Addition": map[string]string{},
 	}
-	createReq := hrpc.NewCreateTable(context.Background(), []byte("CountryRegionCurrency"), columns)
+	createReq := hrpc.NewCreateTable(context.Background(), []byte("SalesPerson"), columns)
 	err = HbaseAdminClient.CreateTable(createReq)
 	if err != nil {
 		log.Println("err:", err)
@@ -47,12 +48,19 @@ func readFileSalesPerson() {
 	for _, item := range res.SalesPersonDB {
 		i = i + 1
 		values := map[string]map[string][]byte{
-			"Code": map[string][]byte{
-				"CountryRegion": []byte(item.CountryRegionCode),
-				"Currency":      []byte(item.CurrencyCode),
+			"Sales": map[string][]byte{
+				"TerritoryID":   []byte(strconv.FormatInt(item.TerritoryID, 10)),
+				"SalesQuota":    []byte(item.SalesQuota),
+				"SalesYTD":      []byte(item.SalesYTD),
+				"SalesLastYear": []byte(item.SalesLastYear),
+				"rowguid":       []byte(item.rowguid),
+			},
+			"Addition": map[string][]byte{
+				"Bonus":         []byte(item.Bonus),
+				"CommissionPct": []byte(item.CommissionPct),
 			},
 		}
-		putRequest, err := hrpc.NewPutStr(context.Background(), "CountryRegionCurrency", strconv.FormatInt(i, 10), values)
+		putRequest, err := hrpc.NewPutStr(context.Background(), "SalesPerson", strconv.FormatInt(item.BusinessEntityID, 10), values)
 		if err != nil {
 			fmt.Println(err)
 		}

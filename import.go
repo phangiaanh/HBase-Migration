@@ -36,13 +36,13 @@ import (
 func main() {
 	time.Sleep(5)
 
-	// disableReq := hrpc.NewDisableTable(context.Background(), []byte("CurrencyRate"))
+	// disableReq := hrpc.NewDisableTable(context.Background(), []byte("Store"))
 	// err := models.HbaseAdminClient.DisableTable(disableReq)
 	// if err != nil {
 	// 	log.Println("err: ", err)
 	// }
 	// log.Println("3")
-	// deleteReq := hrpc.NewDeleteTable(context.Background(), []byte("CurrencyRate"))
+	// deleteReq := hrpc.NewDeleteTable(context.Background(), []byte("Store"))
 	// err = models.HbaseAdminClient.DeleteTable(deleteReq)
 	// if err != nil {
 	// 	log.Println("err: ", err)
@@ -81,5 +81,13 @@ func main() {
 
 	if ok := currentTables["CurrencyRate"]; !ok {
 		models.ImportCurrencyRate()
+	}
+
+	if ok := currentTables["SalesPerson"]; !ok {
+		models.ImportSalesPerson()
+	}
+
+	if ok := currentTables["Store"]; !ok {
+		models.ImportStore()
 	}
 }
