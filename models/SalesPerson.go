@@ -8,6 +8,7 @@ import (
 	"log"
 	"strconv"
 
+	"github.com/tsuna/gohbase/filter"
 	"github.com/tsuna/gohbase/hrpc"
 )
 
@@ -32,6 +33,16 @@ func readFileSalesPerson() {
 	err := json.Unmarshal(data, &res)
 	if err != nil {
 		fmt.Println(err)
+	}
+
+	analColumns := map[string]map[string]string{
+		"Analysis": map[string]string{},
+		"Category": map[string]string{},
+	}
+	analCreateReq := hrpc.NewCreateTable(context.Background(), []byte("SalesAnalysis"), analColumns)
+	err = HbaseAdminClient.CreateTable(analCreateReq)
+	if err != nil {
+		log.Println("err:", err)
 	}
 
 	columns := map[string]map[string]string{
@@ -68,6 +79,22 @@ func readFileSalesPerson() {
 		if err != nil {
 			fmt.Println(err)
 		}
+
+		analValue := map[string]map[string][]byte{
+			"Analysis": map[string][]byte{
+				"CusNum":   []byte(getCusNumByID(strconv.FormatInt(item.BusinessEntityID, 10))),
+				"OrderNum": []byte(getCusNumByID(strconv.FormatInt(item.BusinessEntityID, 10))),
+			},
+			"Category": map[string][]byte{},
+		}
+		analPutRequest, err := hrpc.NewPutStr(context.Background(), "SalesAnalysis", strconv.FormatInt(item.BusinessEntityID, 10), analValue)
+		if err != nil {
+			fmt.Println(err)
+		}
+		_, err = HbaseClient.Put(analPutRequest)
+		if err != nil {
+			fmt.Println(err)
+		}
 	}
 	fmt.Println(i)
 }
@@ -75,4 +102,63 @@ func readFileSalesPerson() {
 func ImportSalesPerson() {
 	readFileSalesPerson()
 	fmt.Println("Done SalesPerson")
+}
+
+func getCusNumByID(id string) string {
+	var res int64 = 0
+	pFilter := filter.NewSingleColumnValueFilter([]byte("Info"), []byte("SalesPersonID"), filter.CompareType(filter.Equal), filter.NewBinaryComparator(filter.NewByteArrayComparable([]byte(id))), true, true)
+	scanRequest, _ := hrpc.NewScanStr(context.Background(), "Store",
+		hrpc.Filters(pFilter))
+	scanRsp := HbaseClient.Scan(scanRequest)
+	var err error
+	item, err := scanRsp.Next()
+	for item != nil {
+		res += getCusNumByStoreID(string(item.Cells[0].Row))
+		item, err = scanRsp.Next()
+		if err != nil {
+			fmt.Println(err)
+			continue
+		}
+	}
+
+	return strconv.FormatInt(res, 10)
+}
+
+func getCusNumByStoreID(id string) int64 {
+	var res int64 = 0
+	pFilter := filter.NewSingleColumnValueFilter([]byte("ID"), []byte("Store"), filter.CompareType(filter.Equal), filter.NewBinaryComparator(filter.NewByteArrayComparable([]byte(id))), true, true)
+	scanRequest, _ := hrpc.NewScanStr(context.Background(), "Customer",
+		hrpc.Filters(pFilter))
+	scanRsp := HbaseClient.Scan(scanRequest)
+	var err error
+	item, err := scanRsp.Next()
+	for item != nil {
+		res += 1
+		item, err = scanRsp.Next()
+		if err != nil {
+			fmt.Println(err)
+			continue
+		}
+	}
+	return res
+}
+
+func getOrderNumByID(id string) string {
+	pFilter := filter.NewSingleColumnValueFilter([]byte("ID"), []byte("SalesPersonID"), filter.CompareType(filter.Equal), filter.NewBinaryComparator(filter.NewByteArrayComparable([]byte(id))), true, true)
+	scanRequest, _ := hrpc.NewScanStr(context.Background(), "SalesOrderHeader",
+		hrpc.Filters(pFilter))
+	scanRsp := HbaseClient.Scan(scanRequest)
+	var err error
+	item, err := scanRsp.Next()
+	var res int64 = 0
+	for item != nil {
+		res += 1
+		item, err = scanRsp.Next()
+		if err != nil {
+			fmt.Println(err)
+			continue
+		}
+		// res = append(res, string(item.Cells[0].Row))
+	}
+	return strconv.FormatInt(res, 10)
 }
