@@ -84,16 +84,8 @@ func main() {
 		models.ImportCurrencyRate()
 	}
 
-	if ok := currentTables["SalesPerson"]; !ok {
-		models.ImportSalesPerson()
-	}
-
 	if ok := currentTables["Store"]; !ok {
 		models.ImportStore()
-	}
-
-	if ok := currentTables["SalesOrderHeader"]; !ok {
-		models.ImportSalesOrderHeader()
 	}
 
 	if ok := currentTables["SalesReason"]; !ok {
@@ -106,5 +98,13 @@ func main() {
 
 	if ok := currentTables["SalesPersonQuotaHistory"]; !ok {
 		models.ImportSalesPersonQuotaHistory()
+	}
+
+	if ok := currentTables["SalesOrderHeader"]; !ok {
+		models.ImportSalesOrderHeader()
+	}
+
+	if ok := currentTables["SalesPerson"]; !ok {
+		models.ImportSalesPerson()
 	}
 }
