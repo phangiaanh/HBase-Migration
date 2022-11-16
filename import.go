@@ -37,17 +37,33 @@ import (
 func main() {
 	time.Sleep(5)
 
-	disableReq := hrpc.NewDisableTable(context.Background(), []byte("SalesOrderDetail"))
-	err := models.HbaseAdminClient.DisableTable(disableReq)
-	if err != nil {
-		log.Println("err: ", err)
+	var err error
+	deleteTables := []string{"Customer", "SalesOrderHeader", "Store", "SalesOrderHeaderSalesReason", "SalesPerson", "SalesPersonQuotaHistory"}
+	for _, item := range deleteTables {
+		disableReq := hrpc.NewDisableTable(context.Background(), []byte(item))
+		err = models.HbaseAdminClient.DisableTable(disableReq)
+		if err != nil {
+			log.Println("err: ", err)
+		}
+
+		deleteReq := hrpc.NewDeleteTable(context.Background(), []byte(item))
+		err = models.HbaseAdminClient.DeleteTable(deleteReq)
+		if err != nil {
+			log.Println("err: ", err)
+		}
 	}
-	log.Println("3")
-	deleteReq := hrpc.NewDeleteTable(context.Background(), []byte("SalesOrderDetail"))
-	err = models.HbaseAdminClient.DeleteTable(deleteReq)
-	if err != nil {
-		log.Println("err: ", err)
-	}
+
+	// disableReq := hrpc.NewDisableTable(context.Background(), []byte("SalesOrderDetail"))
+	// err := models.HbaseAdminClient.DisableTable(disableReq)
+	// if err != nil {
+	// 	log.Println("err: ", err)
+	// }
+	// log.Println("3")
+	// deleteReq := hrpc.NewDeleteTable(context.Background(), []byte("SalesOrderDetail"))
+	// err = models.HbaseAdminClient.DeleteTable(deleteReq)
+	// if err != nil {
+	// 	log.Println("err: ", err)
+	// }
 
 	var currentTables map[string]bool = make(map[string]bool)
 	lstTable, err := hrpc.NewListTableNames(context.Background())
@@ -98,6 +114,10 @@ func main() {
 
 	if ok := currentTables["SalesPersonQuotaHistory"]; !ok {
 		models.ImportSalesPersonQuotaHistory()
+	}
+
+	if ok := currentTables["SalesOrderHeaderSalesReason"]; !ok {
+		models.ImportSalesOrderHeaderSalesReason()
 	}
 
 	if ok := currentTables["SalesOrderHeader"]; !ok {
