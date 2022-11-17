@@ -38,7 +38,9 @@ func main() {
 	time.Sleep(5)
 
 	var err error
-	deleteTables := []string{"Customer", "SalesOrderHeader", "Store", "SalesOrderHeaderSalesReason", "SalesPerson", "SalesPersonQuotaHistory"}
+	// deleteTables := []string{"Customer", "SalesOrderHeader", "Store", "SalesOrderHeaderSalesReason", "SalesPerson", "SalesPersonQuotaHistory"}
+	// deleteTables := []string{"SalesPerson"}
+	deleteTables := []string{}
 	for _, item := range deleteTables {
 		disableReq := hrpc.NewDisableTable(context.Background(), []byte(item))
 		err = models.HbaseAdminClient.DisableTable(disableReq)
@@ -127,4 +129,6 @@ func main() {
 	if ok := currentTables["SalesPerson"]; !ok {
 		models.ImportSalesPerson()
 	}
+
+	models.CreateAnalysisTableCategory()
 }

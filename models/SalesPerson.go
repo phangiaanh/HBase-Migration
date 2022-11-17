@@ -83,7 +83,7 @@ func readFileSalesPerson() {
 		analValue := map[string]map[string][]byte{
 			"Analysis": map[string][]byte{
 				"CusNum":   []byte(getCusNumByID(strconv.FormatInt(item.BusinessEntityID, 10))),
-				"OrderNum": []byte(getCusNumByID(strconv.FormatInt(item.BusinessEntityID, 10))),
+				"OrderNum": []byte(getOrderNumByID(strconv.FormatInt(item.BusinessEntityID, 10))),
 			},
 			"Category": map[string][]byte{},
 		}
@@ -105,6 +105,7 @@ func ImportSalesPerson() {
 }
 
 func getCusNumByID(id string) string {
+	fmt.Println("getCusNumByID: " + id)
 	var res int64 = 0
 	pFilter := filter.NewSingleColumnValueFilter([]byte("Info"), []byte("SalesPersonID"), filter.CompareType(filter.Equal), filter.NewBinaryComparator(filter.NewByteArrayComparable([]byte(id))), true, true)
 	scanRequest, _ := hrpc.NewScanStr(context.Background(), "Store",
@@ -125,6 +126,7 @@ func getCusNumByID(id string) string {
 }
 
 func getCusNumByStoreID(id string) int64 {
+	fmt.Println("getCusNumByStoreID: " + id)
 	var res int64 = 0
 	pFilter := filter.NewSingleColumnValueFilter([]byte("ID"), []byte("Store"), filter.CompareType(filter.Equal), filter.NewBinaryComparator(filter.NewByteArrayComparable([]byte(id))), true, true)
 	scanRequest, _ := hrpc.NewScanStr(context.Background(), "Customer",
